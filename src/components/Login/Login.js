@@ -1,5 +1,5 @@
 import React from "react";
-import firebase, { auth, db } from "../../firebase/Config";
+import firebase, { auth } from "../../firebase/Config";
 import { addDocument, generateKeywords } from "../../firebase/services";
 import "./Login.css";
 const fbProvider = new firebase.auth.FacebookAuthProvider();
